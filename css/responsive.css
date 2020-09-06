@@ -1,0 +1,272 @@
+@media(min-width: 320px) and (max-width:575px) {
+    .header .social {
+        display: none;
+    }
+    .header .login {
+        text-align: center;
+        margin-right: 0px;
+        font-weight: 600;
+    }
+    .login ul li span {
+        font-size: 16px;
+    }
+    .navbar {
+        background: #ded4ff;
+    }
+    .nav-color {
+        background: transparent;
+        height: 100%;
+    }
+    .mynav {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .dropdown-item {
+        text-align: center;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+    .bnrtxt {
+        margin-top: 180px;
+        text-align: center;
+    }
+    .bnrtxt h2 {
+        font-size: 35px;
+    }
+    .bnrtxt h1 {
+        font-size: 38px;
+    }
+    .bnrimg {
+        margin-top: 70px;
+    }
+    .left {
+        top: 90%;
+        left: 15%;
+    }
+    .right {
+        top: 90%;
+        right: 15%;
+    }
+    #led-block {
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .led-img {
+        margin-top: 80px;
+    }
+    .led-text {
+        margin-top: 60px;
+    }
+    .led-text p {
+        width: 100%;
+        padding-bottom: 80px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .more-btn {
+        bottom: 3%;
+    }
+    #spcl-product-part {
+        height: 100%;
+    }
+    .product-details {
+        border-left: 0px;
+        height: 100%;
+    }
+    .product-details p {
+        width: 100%;
+        margin-left: 0;
+    }
+    .product-img img {
+        width: 75%;
+    }
+    #fan-block {
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .fan-img {
+        margin-top: 100px;
+    }
+    .fan-text {
+        margin-top: 40px;
+    }
+    .fan-text p {
+        width: 100%;
+        padding-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    #video-content {
+        height: 100%;
+    }
+    #youtubevideo {
+        height: 100%;
+    }
+    #freeze-block {
+        height: 100%;
+    }
+    .freeze-img {
+        margin-top: 50px;
+    }
+    .freeze-text {
+        margin-top: 50px;
+    }
+    .freeze-text p {
+        width: 100%;
+        margin-left: 0;
+    }
+    .freeze-text ul.colors-freze {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    .freeze-text .more-btn {
+        bottom: 3%;
+    }
+    .footer .foter-des {
+        padding-top: 50px;
+        text-align: center;
+    }
+    .footer .contact {
+        padding-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .footer .contact ul {
+        display: block;
+    }
+    .footer .links {
+        padding-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .footer .myaccount {
+        padding-top: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+    #footer-bottom {
+        height: 100%;
+        background: #d50000;
+        text-align: center;
+    }
+    .copyright {
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    /* Product Page */
+    .trend-product .product-1 p {
+        width: 100%;
+        margin-left: 0px;
+    }
+    /* Product-details */
+    .prdct-heading {
+        margin-top: 30px;
+    }
+    .prdct-dtil {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .social {
+        margin-bottom: 0;
+    }
+    .header .login {
+        margin-right: 0px;
+    }
+    #logo-part .logo {
+        padding-top: 0px;
+        width: 130px;
+        line-height: 50px;
+        margin-left: 10px;
+    }
+    #logo-part .catagory-srch {
+        display: none;
+    }
+    #logo-part {
+        height: 65px;
+    }
+    #logo-part .callus {
+        top: 15px;
+        left: 20px;
+    }
+    .fixed .logo-2 {
+        display: block;
+    }
+    .logo-2 img {
+        width: 80%;
+    }
+    .logo-2 {
+        margin-left: 185px;
+        margin-top: -50px;
+        display: none;
+    }
+    .toggle-txt {
+        display: none;
+    }
+    .fixed .dropdown {
+        margin-left: 8px;
+    }
+    .dropdown {
+        margin-left: 0px;
+    }
+    .dropdown-toggle::after {
+        display: none;
+    }
+    .dropdown .btn {
+        padding: 6px 15px;
+        margin-top: 9px;
+        font-size: 20px;
+    }
+    nav {
+        height: 65px;
+        padding: 0px 10px !important;
+        width: 100%;
+    }
+    .dropdown-menu {
+        width: 260px;
+        left: 0px;
+    }
+    .dropdown-menu .nav-link {
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    .fixed .menu {
+        display: none;
+    }
+    .footer .foter-des {
+        padding-top: 50px;
+        text-align: center;
+    }
+    .footer .foter-des img {
+        width: 50%;
+    }
+    .footer .contact {
+        padding-top: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .footer .contact ul {
+        display: block;
+    }
+    .footer .links {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .footer .links ul li {
+        margin-bottom: 10px;
+    }
+    .footer .links ul li a:hover {
+        padding-left: 0px;
+    }
+    .footer .myaccount {
+        padding-top: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+    #footer-bottom {
+        height: 100%;
+        text-align: center;
+    }
+}
