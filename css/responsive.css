@@ -69,6 +69,15 @@
     #spcl-product-part {
         height: 100%;
     }
+    .left1 {
+        top: 90%;
+        left: 80px;
+        z-index: 999;
+    }
+    .right1 {
+        top: 90%;
+        right: 60px;
+    }
     .product-details {
         border-left: 0px;
         height: 100%;
@@ -164,6 +173,17 @@
     }
     .prdct-dtil {
         margin-left: 30px;
+    }
+    /* Contact us */
+    #contact-us {
+        height: 100%;
+    }
+    .header-text p {
+        width: 270px;
+        margin-left: 14px;
+    }
+    .contact-meta {
+        margin-top: 30px;
     }
 }
 
