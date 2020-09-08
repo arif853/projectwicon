@@ -40,12 +40,10 @@
         margin-top: 70px;
     }
     .left {
-        top: 90%;
-        left: 15%;
+        display: none !important;
     }
     .right {
-        top: 90%;
-        right: 15%;
+        display: none !important;
     }
     #led-block {
         height: 100%;
@@ -179,7 +177,7 @@
         height: 100%;
     }
     .header-text p {
-        width: 270px;
+        width: 93%;
         margin-left: 14px;
     }
     .contact-meta {

@@ -10,7 +10,7 @@ $('.banner-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoPlay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 100,
     prevArrow: '<i class="fas fa-chevron-left left"></i>',
     nextArrow: '<i class="fas fa-chevron-right right"></i>',
     responsive: [{
@@ -34,7 +34,7 @@ $('.banner-slider').slick({
             breakpoint: 575,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -120,7 +120,7 @@ $('.spcl-prdct-slider').slick({
 //   speed: 900,
 //   dots:true,
 // })
-$('.trend-items').slick({
+$('.products-items').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
