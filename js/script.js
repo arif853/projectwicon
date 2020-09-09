@@ -10,37 +10,8 @@ $('.banner-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoPlay: true,
-    autoplaySpeed: 100,
     prevArrow: '<i class="fas fa-chevron-left left"></i>',
     nextArrow: '<i class="fas fa-chevron-right right"></i>',
-    responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                fade: true,
-                dots: false
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 575,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
 });
 
 
@@ -111,54 +82,15 @@ $('.spcl-prdct-slider').slick({
 
 // Product Page Js Start
 
-// $('.trend-items').slick({
-//   infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3,
-//   prevArrow:'<i class="fas fa-chevron-left prev"></i>',
-//   nextArrow:'<i class="fas fa-chevron-right next"></i>',
-//   speed: 900,
-//   dots:true,
-// })
-$('.products-items').slick({
+$('.prduct-banner').slick({
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    prevArrow: '<i class="fas fa-chevron-left prev"></i>',
-    nextArrow: '<i class="fas fa-chevron-right next"></i>',
-    Speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoPlay: true,
+    autoplayspeed: 1000,
+    arrows: false,
     dots: true,
-    responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                fade: true,
-                dots: false
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 575,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
 });
-
-
 
 let syncCont = $("#shop-dual-carousel");
 let syncCarousel = $("#syncCarousel.owl-carousel");
