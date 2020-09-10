@@ -998,7 +998,7 @@ ul.slick-dots li button {
     color: #0f2f44;
     text-align: center;
     margin-bottom: 0px;
-    width: 270px;
+    width: 65%;
     margin-left: 60px;
     margin-top: 10px;
 }
@@ -1091,8 +1091,7 @@ ul.slick-dots li button {
             =================================  */
 
 #contact-us {
-    margin-top: 50px;
-    height: 1000px;
+    margin: 50px 0;
 }
 
 .header-text {
