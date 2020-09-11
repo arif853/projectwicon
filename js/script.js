@@ -14,7 +14,14 @@ $('.banner-slider').slick({
     nextArrow: '<i class="fas fa-chevron-right right"></i>',
 });
 
-
+$('.product-banner-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoPlay: true,
+    arrows: false,
+    dots: true
+});
 // Fixed Menu Js
 $(window).scroll(function() {
     var scrollamount = $(window).scrollTop()
@@ -51,12 +58,11 @@ $('.spcl-prdct-slider').slick({
     autoPlay: true,
     Speed: 1000,
     responsive: [{
-            breakpoint: 1024,
+            breakpoint: 991,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 2,
+                slidesToScroll: 1,
                 infinite: true,
-                fade: true,
                 dots: false
             }
         },
