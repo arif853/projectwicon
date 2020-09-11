@@ -26,6 +26,12 @@
         background-color: transparent;
         border-radius: 10px;
     }
+    #banner-part {
+        height: 830px;
+    }
+    .banner-1 {
+        height: 830px;
+    }
     .bnrtxt {
         margin-top: 180px;
         text-align: center;
@@ -68,7 +74,7 @@
         height: 100%;
     }
     .product-banner {
-        height: 360px;
+        height: 100%;
     }
     #spcl-product-part {
         height: 100%;
@@ -118,8 +124,11 @@
     .freeze-img {
         margin-top: 50px;
     }
+    .freeze-img img {
+        height: 75%;
+    }
     .freeze-text {
-        margin-top: 50px;
+        margin-top: 0px;
     }
     .freeze-text p {
         width: 100%;
@@ -167,6 +176,12 @@
     .trend-product .product-1 p {
         width: 100%;
         margin-left: 0px;
+    }
+    #products-part .prdct-img-1 {
+        height: 100%;
+    }
+    ul.slick-dots {
+        bottom: -15px !important;
     }
     /* Product-details */
     .prdct-heading {
@@ -228,6 +243,10 @@
     }
     .bnrimg {
         margin-top: 70px;
+        margin-left: 75px;
+    }
+    .bnrimg img {
+        width: 90%;
     }
     .left {
         display: none !important;
@@ -288,6 +307,10 @@
     }
     .fan-img {
         margin-top: 100px;
+        margin-left: 75px;
+    }
+    .fan-img img {
+        width: 90%;
     }
     .fan-text {
         margin-top: 40px;
@@ -347,7 +370,7 @@
         text-align: center;
     }
     #footer-bottom {
-        height: 100%;
+        height: 25px;
         background: #d50000;
         text-align: center;
     }
