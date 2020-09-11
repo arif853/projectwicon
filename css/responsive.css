@@ -74,10 +74,10 @@
         height: 100%;
     }
     .left1 {
-        display: none;
+        display: none !important;
     }
     .right1 {
-        display: none;
+        display: none !important;
     }
     .product-details {
         border-left: 0px;
