@@ -9,7 +9,8 @@ $('.banner-slider').slick({
     fade: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoPlay: true,
+    autoplay: true,
+    autoplayspeed: 1000,
     prevArrow: '<i class="fas fa-chevron-left left"></i>',
     nextArrow: '<i class="fas fa-chevron-right right"></i>',
 });
@@ -18,7 +19,8 @@ $('.product-banner-slider').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoPlay: true,
+    autoplay: true,
+    autoplayspeed: 1000,
     arrows: false,
     dots: true
 });
@@ -55,8 +57,8 @@ $('.spcl-prdct-slider').slick({
     slidesToScroll: 1,
     prevArrow: '<i class="fas fa-chevron-left left1"></i>',
     nextArrow: '<i class="fas fa-chevron-right right1"></i>',
-    autoPlay: true,
-    Speed: 1000,
+    autoplay: true,
+    autoplayspeed: 1000,
     responsive: [{
             breakpoint: 991,
             settings: {
@@ -92,7 +94,7 @@ $('.prduct-banner').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoPlay: true,
+    autoplay: true,
     autoplayspeed: 1000,
     arrows: false,
     dots: true,
