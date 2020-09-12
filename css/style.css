@@ -37,6 +37,10 @@
 
 /*Table Of Contents ends */
 
+html {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
