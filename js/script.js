@@ -55,8 +55,7 @@ $('.spcl-prdct-slider').slick({
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
-    prevArrow: '<i class="fas fa-chevron-left left1"></i>',
-    nextArrow: '<i class="fas fa-chevron-right right1"></i>',
+    arrows: false,
     autoplay: true,
     autoplayspeed: 1000,
     responsive: [{

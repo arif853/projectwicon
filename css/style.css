@@ -283,59 +283,16 @@ p {
     width: 100%;
 }
 
-
-/* 
-.left {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #ffffff;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 200px;
-    text-align: center;
-    line-height: 50px;
-    z-index: 9999;
-}
-
-.left:hover {
-    background: #d00000;
-    color: #fff;
-    border: 1px solid #d00000;
-}
-
-.right {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #ffffff;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    right: 200px;
-    text-align: center;
-    line-height: 50px;
-}
-
-.right:hover {
-    background: #d00000;
-    color: #fff;
-    border: 1px solid #d00000;
-} */
-
 .banner-slider ul.slick-dots {
     position: absolute;
-    bottom: 50%;
-    right: 35px;
-    transform: translate(0);
+    bottom: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .banner-slider ul.slick-dots li {
-    display: block;
-    margin-right: 5px;
+    display: inline-block;
+    margin-right: 6px;
 }
 
 .banner-slider ul.slick-dots li.slick-active button {
@@ -586,44 +543,6 @@ p {
     padding-bottom: 5px;
     margin-top: 20px;
     margin-left: 55px;
-}
-
-.left1 {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #000;
-    border-radius: 50%;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: -100px;
-    text-align: center;
-    line-height: 50px;
-}
-
-.left1:hover {
-    background: #d00000;
-    color: #fff;
-    border: 1px solid #d00000;
-}
-
-.right1 {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #000;
-    border-radius: 50%;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    right: -100px;
-    text-align: center;
-    line-height: 50px;
-}
-
-.right1:hover {
-    background: #d00000;
-    color: #fff;
-    border: 1px solid #d00000;
 }
 
 
