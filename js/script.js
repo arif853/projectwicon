@@ -11,8 +11,8 @@ $('.banner-slider').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplayspeed: 1000,
-    prevArrow: '<i class="fas fa-chevron-left left"></i>',
-    nextArrow: '<i class="fas fa-chevron-right right"></i>',
+    dots: true,
+    arrows: false,
 });
 
 $('.product-banner-slider').slick({

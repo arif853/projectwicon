@@ -283,6 +283,8 @@ p {
     width: 100%;
 }
 
+
+/* 
 .left {
     width: 50px;
     height: 50px;
@@ -322,6 +324,31 @@ p {
     background: #d00000;
     color: #fff;
     border: 1px solid #d00000;
+} */
+
+.banner-slider ul.slick-dots {
+    position: absolute;
+    bottom: 50%;
+    right: 35px;
+    transform: translate(0);
+}
+
+.banner-slider ul.slick-dots li {
+    display: block;
+    margin-right: 5px;
+}
+
+.banner-slider ul.slick-dots li.slick-active button {
+    background: #d50000;
+}
+
+.banner-slider ul.slick-dots li button {
+    font-size: 0px;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #d50000;
+    border-radius: 5px;
 }
 
 
@@ -417,6 +444,15 @@ p {
     bottom: 0px;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.product-banner-slider ul.slick-dots li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-banner-slider ul.slick-dots li.slick-active button {
+    background: #d50000;
 }
 
 .product-banner-slider ul.slick-dots li button {
@@ -906,23 +942,23 @@ p {
     height: 100%;
 }
 
-ul.slick-dots {
+.prduct-banner ul.slick-dots {
     position: absolute;
     bottom: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-ul.slick-dots li {
+.prduct-banner ul.slick-dots li {
     display: inline-block;
     margin-right: 5px;
 }
 
-ul.slick-dots li.slick-active button {
+.prduct-banner ul.slick-dots li.slick-active button {
     background: #d50000;
 }
 
-ul.slick-dots li button {
+.prduct-banner ul.slick-dots li button {
     font-size: 0px;
     width: 12px;
     height: 12px;
