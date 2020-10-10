@@ -20,31 +20,6 @@
 <body>
 
     <!--  =================================
-                        Header Part Start
-                  ==================================  -->
-
-    <!-- Header Part Start -->
-
-    <header id="header-part" class="header">
-        <div class="top-header">
-            <div class="container header-color">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-12">
-                        <div class="social">
-                            <ul class="social-icons social-icons-simple ">
-                                <li><a class="facebook" href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a class="twitter" href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                <li><a class="insta" href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                <li><a class="whatsapp" href="#" title="Whatsapp"><i class="fab fa-whatsapp"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--  =================================
                         Navbar Part Start
                   ==================================  -->
     <nav class="navbar navbar-expand-lg fixmenu">
@@ -52,38 +27,6 @@
             <a class="navbar-brand" href="index.html">
                 <img src="images/cropped-Wicon-Logo.png" alt="cropped-Wicon-Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-            </button>
-
-            <!-- <div class="collapse navbar-collapse mynav" id="navbarSupportedContent">
-            <ul class="navbar-nav ">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="product.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Products
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="product.html">Television</a>
-                    <a class="dropdown-item" href="#">Fan</a>
-                    <a class="dropdown-item" href="#">Refrigerator</a>
-                    <a class="dropdown-item" href="#">All Products</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Our Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-            </ul>
-        </div> -->
         </div>
     </nav>
 
@@ -248,13 +191,18 @@
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script type="text/javascript" src="js/venobox.min.js"></script>
-    <script src="js/jquery.parallax-scroll.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        let countDown = $(".count_down");
+        if (countDown.length) {
+            countDown.downCount({
+                // month / day / Year
+                date: '11/01/2020 00:00:00',
+                // offset: +6
+            });
+        }
+    </script>
 
 
 </body>

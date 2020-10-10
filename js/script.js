@@ -197,19 +197,14 @@ syncChild.on("click", ".owl-item", function() {
 /* =====================================
             Coming Soon Count Down
     ====================================== */
-// let countDown = $(".count_down");
-// if (countDown.length) {
-//     countDown.downCount({
-//         // month / day / Year
-//         date: '2/21/2021 12:00:00',
-//         offset: +10
-//     });
-// }
 
-$('.count_down').countdown({
-    date: '12/24/2020 23:59:59'
-}, function() {
-    alert('Merry Christmas!');
+$('#simple-timer').syotimer({
+    year: 2035,
+    month: 5,
+    day: 9,
+    hour: 20,
+    minute: 30
 });
+
 
 // Responsive Js
